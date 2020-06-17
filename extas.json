@@ -2,14 +2,23 @@
   "name": "@package",
   "package_classes": [
     {
-      "interface": "sampleRepository",
-      "class": "extas\\components\\samples\\SampleRepository"
+      "interface": "",
+      "class": ""
+    }
+  ],
+  "plugins_install": [
+    {
+      "repository": "",
+      "name": "",
+      "section": ""
     }
   ],
   "plugins": [
     {
-      "class": "extas\\components\\plugins\\install\\InstallSamples",
-      "stage": "extas.install.section.samples"
+      "class": "",
+      "stage": "",
+      "priority": 0,
+      "parameters": {}
     }
   ],
   "extensions": [
@@ -17,7 +26,7 @@
       "class": "extas\\components\\extensions\\ExtensionRepositoryGet",
       "interface": "extas\\interfaces\\extensions\\IExtensionRepositoryGet",
       "subject": "*",
-      "methods": ["sampleRepository"]
+      "methods": []
     }
   ]
 }
