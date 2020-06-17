@@ -1,0 +1,23 @@
+{
+  "name": "extas/samples",
+  "package_classes": [
+    {
+      "interface": "sampleRepository",
+      "class": "extas\\components\\samples\\SampleRepository"
+    }
+  ],
+  "plugins": [
+    {
+      "class": "extas\\components\\plugins\\install\\InstallSamples",
+      "stage": "extas.install.section.samples"
+    }
+  ],
+  "extensions": [
+    {
+      "class": "extas\\components\\extensions\\ExtensionRepositoryGet",
+      "interface": "extas\\interfaces\\extensions\\IExtensionRepositoryGet",
+      "subject": "*",
+      "methods": ["sampleRepository"]
+    }
+  ]
+}
