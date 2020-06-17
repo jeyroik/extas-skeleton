@@ -1,5 +1,5 @@
 {
-  "name": "extas/samples",
+  "name": "@package",
   "package_classes": [
     {
       "interface": "sampleRepository",
