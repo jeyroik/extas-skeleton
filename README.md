@@ -7,7 +7,7 @@ Skeleton Extas package.
 ```bash
 # composer create-project jeyroik/extas-skeleton <package directory name>
 # cd <package directory name>
-<package directory name># vendor/bin/build run
+<package directory name># composer run-script build
 ```
 
 You should see dialog like this:
