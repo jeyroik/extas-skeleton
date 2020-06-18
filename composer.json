@@ -2,18 +2,7 @@
   "name": "jeyroik/extas-skeleton",
   "description": "Extas skeleton package",
   "require": {
-    "jeyroik/extas-skeleton-builder": "0.*",
-    "jeyroik/extas-foundation": "5.*",
-    "jeyroik/extas-repositories-get": "0.*",
-    "jeyroik/extas-installer": "3.*"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9",
-    "vlucas/phpdotenv": "^3.4",
-    "jeyroik/extas-repositories-mongo": "1.*",
-    "phpstan/phpstan": "0.*",
-    "jeyroik/extas-snuffbox": "0.*",
-    "jeyroik/extas-snuffbox-installer": "0.*"
+    "jeyroik/extas-skeleton-builder": "0.*"
   },
   "autoload": {
     "psr-4": {
@@ -21,13 +10,6 @@
     }
   },
   "scripts": {
-    "build": "vendor/bin/build run",
-    "init": "vendor/bin/extas init",
-    "install": "vendor/bin/extas install",
-    "uninstall": "vendor/bin/extas uninstall",
-    "up": "vendor/bin/extas init && vendor/bin/extas install",
-    "down": "vendor/bin/extas uninstall",
-    "test": "vendor/bin/phpunit --testdox --coverage-clover=coverage.xml --whitelist=src tests",
-    "stan": "vendor/bin/phpstan analyse -l 5 src"
+    "build": "vendor/bin/build run"
   }
 }
